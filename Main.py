@@ -85,3 +85,4 @@ disk_conn.commit()
 logging.info("Data successfully added and saved.")
 
 disk_conn.close()
+
