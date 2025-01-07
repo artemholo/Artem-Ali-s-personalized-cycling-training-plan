@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac86312f-9e19-47c4-92c1-2a89e8e90dba" name="Changes" comment="in progress">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inside_of_training.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_plan.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workout_segments.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workouts.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "artemholo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/artemholo/Artem-Ali-s-personalized-cycling-training-plan.git",
+    "accountId": "cb4563c8-928a-43c3-8f82-2308b75ec841"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -38,8 +54,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "git-add-Main.py"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Holo/PycharmProjects/TrainingPlan/Artem Ali's personalized cycling training plan/Main.py",
+    "settings.editor.selected.configurable": "preferences.externalTools"
   }
 }]]></component>
   <component name="SharedIndexes">
