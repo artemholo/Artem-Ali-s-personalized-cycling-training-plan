@@ -12,3 +12,6 @@ These workouts were developed in collaboration with a highly qualified coach who
 • Holds a degree from the Lesgaft National State University of Physical Education, Sport, and Health.
 
 Our training methodology was based on monitoring heart rate, power output, and subjective well-being. Over the years, I have maintained a high level of discipline, rarely missing workouts—perhaps just a couple of times per year.
+
+Thank You
+Thank you for your attention and interest in my project! I hope this repository inspires others to organize and analyze their training data in a meaningful way.
