@@ -1,1 +1,14 @@
-Hello. This code is my cycling training plan that I have been following since the summer of 2021. My ultimate goal at the moment is a database in the form of: descriptions of the workouts that I have done over the years. Here are: workout duration. heart rate zones that are used during the workout. segments within the workout (intervals with rest), annotations and tips. I did these workouts with a highly qualified coach who graduated from the Olympic Reserve School (triathlon department. specialization - Olympic triathlon, short distance) and the Lesgaft Sports University. We trained according to heart rate, power, well-being. I missed workouts a maximum of a couple of times a year. Thank you for your attention
+Hello! This project contains my cycling training plan, which I have been following since the summer of 2021.
+
+The primary goal of this project is to create a structured database that records and organizes the details of all my completed workouts over the years. The database includes the following key information:
+• Workout Duration: Total time spent on each session.
+• Heart Rate Zones: Target zones used during training.
+• Workout Segments: Intervals, rest periods, and their respective details.
+• Annotations and Tips: Notes and advice for specific workouts or segments.
+
+Background
+These workouts were developed in collaboration with a highly qualified coach who:
+• Graduated from the Olympic Reserve School (Triathlon Department, specialization in Olympic short-distance triathlon).
+• Holds a degree from the Lesgaft National State University of Physical Education, Sport, and Health.
+
+Our training methodology was based on monitoring heart rate, power output, and subjective well-being. Over the years, I have maintained a high level of discipline, rarely missing workouts—perhaps just a couple of times per year.
