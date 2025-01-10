@@ -40,9 +40,6 @@ def create_tables(cursor):
             FOREIGN KEY (template_id) REFERENCES inside_of_training(id)
         );
     """)
-    cursor.execute("CREATE INDEX IF NOT EXISTS idx_workouts_date ON workouts (date);")
-    cursor.execute("CREATE INDEX IF NOT EXISTS idx_workouts_type ON workouts (training_type);")
-
     logging.info("Tables and indexes created successfully.")
 
 
@@ -54,3 +51,13 @@ def clear_tables(cursor):
         DELETE FROM workout_segments;
     """)
     logging.info("Tables cleared successfully.")
+
+
+# Inserting data into the database
+def insert_data(cursor, table_name, data, query):
+    try:
+        cursor.executemany(query, data)
+        logging.info(f"Data inserted into {table_name} successfully.")
+    except sqlite3.Error as e:
+        logging.error(f"Error inserting data into {table_name}: {e}")
+        raise
