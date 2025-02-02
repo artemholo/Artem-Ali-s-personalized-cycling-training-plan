@@ -1,8 +1,104 @@
-id,date,total_duration,training_type,heart_rate_zone,notes
-1,2021-06-12,PT1H30M,Recovery,2z lower limit,Getting back into the training process
-2,2021-06-13,PT1H30M,Recovery - tone,2z - 3z,Getting back into the training process
-3,2021-06-14,PT1H30M,Recovery,2z lower limit,Getting back into the training process
-4,2021-06-17,PT1H30M,Recovery,2z lower limit,Getting back into the training process
-5,2021-06-15,PT1H30M,Recovery - tone,2z - 6z,Getting back into the training process
-6,2021-06-17,PT1H30M,Recovery,2z lower limit,Getting back into the training process
-7,2021-06-18,PT1H30M,Recovery,2z lower limit,Getting back into the training process
+id,date,total_duration,distance,training_type,heart_rate_zone,notes
+1,2021-07-12,PT1H30M,50,Recovery,2z lower limit,Getting back into the training process
+2,2021-07-13,PT1H30M,50,Recovery - tone,2z - 3z,Getting back into the training process
+3,2021-07-14,PT1H30M,50,Recovery,2z lower limit,Getting back into the training process
+4,2021-07-15,PT1H30M,50,Recovery,2z lower limit,Getting back into the training process
+5,2021-07-16,PT1H30M,50,Recovery - tone,2z - 6z,Getting back into the training process
+6,2021-07-17,PT1H30M,50,Recovery,2z lower limit,Getting back into the training process
+7,2021-07-18,PT1H30M,50,Recovery,2z lower limit,Getting back into the training process
+8,2021-07-19,PT1H30M,50,Moderate,2z,130/140 - GPF press/back/push-ups
+9,2021-07-20,PT1H30M,50,Moderate,2z,130/140 - 5 short bursts
+10,2021-07-21,PT3H,90,Moderate,2z/3z,20 km avg tempo 145/150 + 20 km slightly above avg tempo
+11,2021-07-22,PT1H30M,50,Moderate,2z,130/140 - GPF press/back/push-ups
+12,2021-07-23,PT1H10M,40,Easy,2z,130/140 - two days before start
+"13,2021-07-24,PT1H20M,45,Easy,2z,130/140 - 3-5x: 15"" closer to the end"
+14,2021-07-25,PT0H47M,24,All out,5z,start w/ hills
+15,2021-07-26,PT1H30M,50,Recovery,2z lower limit/2z,possible until ~135
+16,2021-07-27,PT1H30M,50,Recovery,2z,possible until ~140
+17,2021-07-28,PT2H30M,80,Moderate,2z/3z,45 km easy/moderate - 30 km cadence 60 145/150
+18,2021-07-29,PT1H30M,50,Easy,2z,130/140
+19,2021-07-30,PT1H30M,50,Easy,2z,130/140
+20,2021-07-31,PT3H,90,Moderate,2z/3z,45 km easy/moderate - 40 km 60 cad moderate 145/150
+21,2021-08-01,PT0H,Day Off,Day Off,Day Off
+22,2021-08-02,PT2H,60,Moderate,2z/3z,avr tempo inside
+23,2021-08-03,PT1H30M,50,Moderate,2z/3z,avr tempo inside
+24,2021-08-04,PT2H30M,70,Moderate,2z/3z,avr tempo inside
+25,2021-08-05,PT1H30M,50,Moderate,2z/3z,avr tempo inside
+26,2021-08-06,PT1H30M,50,Moderate,2z/3z,avr tempo inside
+27,2021-08-07,PT1H,35,Easy,Softy
+28,2021-07-08,PTH1H35M,55,All out,start w/ small hills
+29,2021-08-09,PTH1H10M,35,Easy,Softly
+30,2021-08-10,PT0H,0,Day Off,Day Off,Day Off
+31,2021-08-11,PT2H10M,80,Moderate,Tempo
+32,2021-08-12,PT1H30M,50,Easy,Endurance
+33,2021-08-13,PTH1H10M,35,Easy,Softly
+34,2021-08-14,PT45M,20,All out,TT 13,56 19m9s
+35,2021-08-15,PT1H,40,Easy,Softly
+36,2021-08-16,PT0H,0,Day Off,Day Off,Day Off
+37,2021-08-17,PT1H30M,50,Easy,130/140 shrot bursts
+38,2021-08-18,PT2H15M,80,Moderate,Temo
+39,2021-08-19,PT1H30M,50,Easy,Endurance
+40,2021-08-20,PT1H,40,Easy,Softly
+41,2021-08-21,PT42M34S,30,All out,FTP/V02Max
+42,2021-08-22,PT1H,40,Easy,Leg over leg
+43,2021-08-23,PT0H,0,Day Off,Day Off,Day Off
+44,2021-08-24,PT2H,60,Easy,1-2z
+45,2021-08-25,PT3H,90,Moderate,Tempo
+46,2021-08-26,PT2H,60,Easy,1-2z
+47,2021-08-27,PT2H,60,Easy w/ bursts,1-2z
+48,2021-08-28,PT3ла20M,100,Moderate,Tempo/FTP-power
+49,2021-08-29,PT1H,40,Easy,Softly
+50,2021-08-30,PT2H,60,Moderate,Tempo
+51,2021-08-31,PT2H,60,Easy,1-2z
+52,2021-09-01,PT3H15M,100,Moderate,Tempo
+53,2021-09-02,PT1H30M,50,Easy,Endurance
+54,2021-09-03,PT2H,60,Easy,1-2z
+55,2021-09-04,PT1H30M,55,Moderate,Warm up for the race
+56,2021-09-05,PT0H,0,Day Off,Day Off,Day Off
+57,2021-09-06,PT1H,40,Easy,Leg over leg
+58,2021-09-07,PT0H,0,Day Off,Day Off,Day Off
+59,2021-09-08,PT2H,60,Easy,1-2z
+60,2021-09-09,PT3H15M,100,Moderate,Tempo
+61,2021-09-10,PT1H,40,Easy,Softly
+62,2021-09-11,PT1H,40,Easy,Softly
+63,2021-09-12,PT1H28M,58,All out,FTP/V02Max
+64,2021-09-13,PT1H,40,Easy,Softly
+65,2021-09-14,PT0H,0,Day Off,Day Off,Day Off
+66,2021-09-15,PT1H30M,50,Easy,Endurance
+67,2021-09-16,PT2H30M,80,Moderate,Tempo
+68,2021-09-17,PT1H30M,50,Easy,Endurance
+69,2021-09-18,PT1H30M,50,Easy,Endurance
+70,2021-09-19,PT20M24S,13.61,All out,V02Max
+71,2021-09-20,PT1H,40,Easy,Softly
+72,2021-09-21,PT0H,0,Day Off,Day Off,Day Off
+73,2021-09-22,PT2H20M,70,Easy,Endurance
+74,2021-09-23,PT1H30M,50,Easy,Endurance
+75,2021-09-24,PT1H,40,Easy,Endurance
+76,2021-09-25,PT2H16M36S,All out,FTP
+77,2021-09-26,PT1H,40,Easy,Endurance
+78,2021-09-27,PT0H,0,Day Off,Day Off,Day Off
+79,2021-09-28,PT1H,40,Easy,Endurance
+80,2021-09-29,PT1M59S,All out,V02Max
+81,2021-09-30,PT1H,40,Easy,Endurance
+82,2021-10-01,PT1H,40,Easy,Endurance
+83,2021-10-02,PT1H,40,Easy,Warm up for the race
+84,2021-10-03,PT17M44S,All out,V02Max
+85,2021-10-04,PT1H,40,Easy,Recovery
+86,2021-10-05,PT0H,0,Day Off,Day Off,Day Off
+87,2021-10-06,PT1H30M,50,Easy,Endurance
+88,2021-10-07,PT38S,0.4,All out,Sprint/V02Max
+89,2021-10-08,PT40M,30,Easy,Recovery
+90,2021-10-09,PT1M36S,0.79,Hard,Sprint/V02Max
+91,2021-10-10,PT1H30M,50,Easy,Recovery 120/130
+92,2021-10-11,PT0H,0,Day Off,Day Off,Day Off
+93,2021-10-12,PT2H8M,75,Hard,FTP
+94,2021-10-13,PT1H15M,45,Easy,Recovery 120/130
+95,2021-10-14,PT0H,0,Day Off,Day Off,Day Off
+96,2021-10-15,PT1H15M,45,Easy,Recovery 120/130
+97,2021-10-16,PT1H30M,50,Easy,Recovery 1z 70%, 2z 30%
+98,2021-10-17,PT1H30M,50,Easy,Endurance
+99,2021-10-18,PT0H,0,Day Off,Day Off,Day Off
+100,2021-10-19,PT40M,30,Easy,Warm up for the race
+101,2021-10-20,PT1H13M,41,All out,classic FTP test
+102,2021-10-21,PT2H40M,50,Easy,Recovery 120
+103,2021-10-22,PT1H45M,50,Easy,Endurance 

@@ -1,0 +1,12 @@
+{
+  "database": "training_plan.db",
+  "csv_files": {
+    "workouts": "workouts.csv",
+    "inside_of_training": "inside_of_training.csv",
+    "workout_segments": "workout_segments.csv"
+  },
+  "validation": {
+    "date_format": "YYYY-MM-DD",
+    "duration_format": "ISO 8601"
+  }
+}

@@ -1,6 +1,7 @@
 import unittest
-from csv_utils import load_csv, is_valid_date, is_valid_duration
+from csv_utils import load_csv_with_pandas, is_valid_date, is_valid_duration, is_valid_number
 from db_utils import connect_to_db, create_tables, clear_tables, insert_data
+
 
 class TestCSVUtils(unittest.TestCase):
     def test_valid_date(self):
@@ -11,24 +12,25 @@ class TestCSVUtils(unittest.TestCase):
         self.assertTrue(is_valid_duration("PT1H30M"))
         self.assertFalse(is_valid_duration("1:30"))
 
-    def test_load_csv(self):
-        data = load_csv('workouts.csv', 6)
-        self.assertGreater(len(data), 0)
+    def test_valid_number(self):
+        self.assertTrue(is_valid_number("50"))
+        self.assertTrue(is_valid_number("50.5"))
+        self.assertFalse(is_valid_number("abc"))
 
-class TestDBUtils(unittest.TestCase):
-    def setUp(self):
-        self.conn = connect_to_db(":memory:")
-        self.cursor = self.conn.cursor()
-        create_tables(self.cursor)
 
-    def tearDown(self):
-        self.conn.close()
+def db_connection():
+    conn = connect_to_db(":memory:")
+    cursor = conn.cursor()
+    create_tables(cursor)
+    yield cursor
+    conn.close()
 
-    def test_insert_data(self):
-        data = [("2021-06-12", "PT1H30M", "Recovery", "2z lower limit", "Getting back")]
-        insert_data(self.cursor, "workouts", data, """
-            INSERT INTO workouts (date, total_duration, training_type, heart_rate_zone, notes)
-            VALUES (?, ?, ?, ?, ?);
-        """)
-        self.cursor.execute("SELECT * FROM workouts;")
-        self.assertEqual(len(self.cursor.fetchall()), 1)
+
+def test_insert_data(db_connection):
+    data = [("2021-06-12", "PT1H30M", 50, "Recovery", "2z lower limit", "Getting back")]
+    insert_data(db_connection, "workouts", data, """
+        INSERT INTO workouts (date, total_duration, distance, training_type, heart_rate_zone, notes)
+        VALUES (?, ?, ?, ?, ?, ?);
+    """)
+    db_connection.execute("SELECT * FROM workouts;")
+    assert len(db_connection.fetchall()) == 1

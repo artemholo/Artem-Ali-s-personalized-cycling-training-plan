@@ -4,7 +4,9 @@ import logging
 
 # Connecting to a SQLite db
 def connect_to_db(db_name):
-    return sqlite3.connect(db_name)
+    conn = sqlite3.connect(db_name)
+    logging.info(f"Connected to database {db_name}")
+    return conn
 
 
 # Creating tbl and indexes in a db
@@ -15,6 +17,7 @@ def create_tables(cursor):
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             date TEXT,
             total_duration TEXT,
+            distance REAL,
             training_type TEXT,
             heart_rate_zone TEXT,
             notes TEXT

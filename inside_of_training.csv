@@ -1,10 +1,55 @@
 id,segment_duration,segment_goal,intensity,notes
-1,PT15M,Softly,1 zone,Spinning 
-2,PT70M,Easy,2 zone,
+1,PT15M,Softly,1 zone,Warm-up/Spining
+2,PT1H10M,Easy,2 zone,Endurance
 3,PT5M,Leg over leg,1 zone,Cool down
-4,PT45M,Easy,2 zone,
+4,PT45M,Easy,2 zone,Endurance
 5,PT2M,Middling,3 zone,Get a little involved
-6,PT3M,Easy,1 zone - 2 zone,
-7,PT0M15S,Speed-up,6 zone,Get involved
+6,PT3M,Easy,1 zone - 2 zone,Recovery
+7,PT15S,Sprint,6 zone,Get involved
 8,PT1M45S,Easy,1 zone - 2 zone,Recovery
-9,PT30M,Easy,2 zone,
+9,PT30M,Easy,2 zone,Endurance
+10,PT60M,Easy,2 zone,Endurance
+11,PT1H30M,Easy,2 zone,Endurance
+12,PT35M,Middling,3 zone,145/150
+13,PT35M,Middling,3 zone,>150
+14,PT50M,Easy,2 zone,Endurance
+15,PT47M,Hard,5 zone,V02Max
+16,PT50M,Middling,3 zone,Endurance power-boost 145-150 cad60
+17,PT1H20M,Easy,2 zone,Endurance
+18,PT1H15M,Middling,3 zone,Endurance power-boost 145-150 cad60
+19,PT0H,Day Off,Day Off,Day Off
+20,PT1H30M,Middling,3 zone,decrease VLamax & increase FTP
+21,PT1H50M,Middling,3 zone,decrease VLamax & increase FTP
+22,PT1H10M,Middling,3 zone,decrease VLamax & increase FTP
+23,PT1H20M,Hard,2 zone/5 zone,V02Max
+24,PT0H19M9S,Hard,5 zone,V02Max/13.56km
+25,PT0H15M,Softly,1 zone,Cool down
+26,PT1H,Softly,1 zone,Recovery
+27,PT20M,Middling,3 zone,power boost 60 cad
+28,PT42M34S,Hard,4/5 zone,V02Max
+29,PT1H40M,Easy,2 zone,Endurance
+"30,PT7M30S,Sprint,6 zone,5x: 15""/1'15"" get involved"
+31,PT20M,Threshold,4 zone,FTP-power cad 60
+32,PT25M,Threshold,4 zone,FTP-power cad 60
+33,PT1H45M,Easy,2 zone,Endurance
+"34,PT18M15S,Middling,2/5 zone,5' 140-145/2' FTP/1'30"" V02Max/3x 15"""
+35,PT1H28M,Hard,2-5 zone,V02Max/FTP
+36,PT20M24S,Hard, 4-5 zone,V02Max
+37,PT2H,Easy,1-2 zone,Endurance
+38,PT2H16M36S,Hard, 4 zone, FTP
+39,PT1M59S,Hard,5 zone,V02Max
+40,PT17M44S,Hard,5 zone,V02Max
+41,PT38S,Hard,5 zone,Sprint/V02Max
+42,PT1M36S,Hard,5 zone,Sprint/V02Max
+43,PT2H8M,Hard, 4 zone,FTP
+44,PT20M,Hard,4-5 zone,FTP/V02Max
+45,PT5M,Easy,2 zone,Warm-up/Spining
+46,PT20S,Middling,3 zone,Warm-up
+47,PT20S,Hard,4 zone,Warm-up
+48,PT20S,Hard,5 zone,Warm-up
+49,PT3M,Easy,1 zone,Cool down
+50,PT3M,Hard,5 zone,V02Max
+51,PT2M,Hard,over 5 zone,V02Max
+52,PT5M,Easy,1 zone,Cool down
+53,PT20M,Hard, 4-5 zone,FTP/V02Max
+54,PT2H40M,Softly,1 zone,Recovery
