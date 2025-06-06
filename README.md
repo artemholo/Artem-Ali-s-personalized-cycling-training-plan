@@ -13,5 +13,5 @@ These workouts were developed in collaboration with a highly qualified coach who
 
 Our training methodology was based on monitoring heart rate, power output, and subjective well-being. Over the years, I have maintained a high level of discipline, rarely missing workouts—perhaps just a couple of times per year.
 
-Thank You
+Thank You.
 Thank you for your attention and interest in my project! I hope this repository inspires others to organize and analyze their training data in a meaningful way.
